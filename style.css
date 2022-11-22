@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: consolas;
 
 }
 
@@ -191,7 +191,9 @@ h1 {
 @media(max-width: 990px) {
 
     .logo {
-        font-size: 15px;
+        font-size: 18px;
+        margin-top: -45px;
+        margin-left: 45px;
     }
 
     button {
@@ -203,7 +205,7 @@ h1 {
 
     .navbar {
         width: 75%;
-        height: 15%;
+        height: 25%;
         margin: 5px;
         display: flex;
         align-items: center;
